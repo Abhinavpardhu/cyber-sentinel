@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Temporary uploads
+tmp_uploads/
+
+# ML models
+*.pkl
+*.joblib
+*.h5
+
+# Datasets
+*.csv
+*.parquet
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
